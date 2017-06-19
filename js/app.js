@@ -7,7 +7,7 @@ let button = new Vue({
             title: 'Auto close alert!',
             text: 'I will close in 2 seconds.',
             timer: 2000
-            }).then(
+            }).then( 
             function () {},
             // handling the promise rejection
             function (dismiss) {
